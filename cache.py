@@ -63,3 +63,8 @@ time.sleep(1)
 
 # Close the Group menu
 driver.find_element_by_xpath('//span[@data-testid="x"]').click()
+time.sleep(5)
+
+
+# Close the webdriver
+driver.quit()
