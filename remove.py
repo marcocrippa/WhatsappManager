@@ -31,7 +31,7 @@ for s in states:
     for i in nincho:
         for n in range(1, 4):
 
-            # Search for groups
+            # Search for group
             driver.find_element_by_xpath(
                 '//div[@title="Search input textbox"]').send_keys(f'BNA - {i} {n}')
             time.sleep(2)
